@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%),
+    url(https://i.pinimg.com/736x/82/ed/63/82ed63fa22233f30b479068c0f9db7fd.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon{
+    width: 200px;
+    float: left;
+    height:70px
+}
+
+.logo{
+    color: orange;
+    font-size: 20px;
+    font-family: sans-serif;
+    padding-left: 10px;
+    float: left;
+    padding: 10px;
+    padding-top: 30px;
+}
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 200px;
+    font-size: 20px;
+    margin-top: 27px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: bold;
+    transition: o.4s ease-in-out;
+} 
+ul li a:hover{
+    color: orange;
+}
