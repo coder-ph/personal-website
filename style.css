@@ -30,6 +30,7 @@
     font-family: sans-serif;
     padding-left: 10px;
     float: left;
+    left: 50%;
     padding: 10px;
     padding-top: 30px;
 }
@@ -42,16 +43,17 @@ ul{
     float: left;
     display: flex;
     justify-content: center;
-    align-items: center;
+    
 }
 
 ul li{
     list-style: none;
-    margin-left: 200px;
+    margin-left: 230px;
     font-size: 20px;
     margin-top: 27px;
     font-family: sans-serif;
     font-weight: bold;
+    justify-items: right;
 }
 ul li a{
     text-decoration: none;
@@ -62,4 +64,66 @@ ul li a{
 } 
 ul li a:hover{
     color: orange;
+}
+.name{
+    
+    color: orange;
+    font-size: 25px;
+    letter-spacing: 2px;
+    width: 60%;
+    height: 50vh;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.name h1:hover{
+    color: #fff;
+}
+.content{
+    position: relative;
+    top: -110%;
+    left: 10%;
+    transform: translateY(-50%);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    height: auto;
+}
+.pholder{
+    text-align: center;
+    text-decoration: none;
+    background: none;
+    
+}
+.pholder a{
+    background-color: orange;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+    color: black;
+}
+.icons{
+    position: relative;
+    top: 190px;
+    left: 40%;
+    transform: translateY(-50%);
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+.icons a{
+    color: orange;
+   padding-top: 1px;
+   padding-left: 20px;
+   font-size: 25px;
+   transition: 0.3s ease-in-out;
+   bottom: 10%;
+}
+.icons a:hover{
+   color: antiquewhite;
 }
